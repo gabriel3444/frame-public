@@ -2302,7 +2302,7 @@ end)
     CreateThread(function()
         while main.Loop do
             Wait(0)
-            if IsControlJustPressed(0, 244) then
+            if IsControlJustPressed(0, 121) then
                 main.menuOpen = not main.menuOpen
                 main.anim.subTab.y = 0.0
             elseif main.menuOpen then
