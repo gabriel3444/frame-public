@@ -3,5 +3,10 @@
         "desc": "",
         "version": "1.0.1",
         "url": "https://raw.githubusercontent.com/gabriel3444/frame-public/refs/heads/main/scripts/kepper.lua"
+    },
+    "kepper": {
+        "desc": "",
+        "version": "1.0.1",
+        "url": "https://raw.githubusercontent.com/gabriel3444/frame-public/refs/heads/main/scripts/test.lua"
     }
 }
