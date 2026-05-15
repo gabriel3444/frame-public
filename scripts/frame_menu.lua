@@ -1003,7 +1003,7 @@ local function buildMenu()
     local initialColorIndex = clampIndex(settings.titleColorIndex, #titleColors)
     local initialColor = titleColors[initialColorIndex]
     local initialColorRgba = initialColor and initialColor.rgb and { initialColor.rgb[1], initialColor.rgb[2], initialColor.rgb[3], 255 } or { 51, 51, 255, 255 }
-    menu:CreateMenu("Frame Menu V1", 0.86, 0.09, initialColorRgba)
+    menu:CreateMenu("Frame Menu", 0.86, 0.09, initialColorRgba)
 
     local playerMenu = menu:AddSubMenu("Jogador", "Jogador")
     playerMenu.Back()
